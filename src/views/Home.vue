@@ -1,11 +1,18 @@
 <template>
   <div>
-    HOME
+    EDIVAN
+    <base-input type="text" />
   </div>
 </template>
 
 <script>
+import BaseInput from "../components/BaseInput.vue";
+
 export default {
-  name: 'Home',
-}
+  name: "Home",
+
+  components: {
+    BaseInput,
+  },
+};
 </script>
