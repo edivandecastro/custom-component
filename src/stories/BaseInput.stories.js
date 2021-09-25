@@ -18,6 +18,13 @@ export default {
         "url",
       ]}
     },
+    height: {
+      control: { type: "select", options: [
+        "32",
+        "40",
+        "48",
+      ]}
+    },
   },
 };
 
