@@ -1,7 +1,6 @@
 <template>
   <div>
-    EDIVAN
-    <base-input type="text" />
+    <BaseInput type="text" class="m-10" />
   </div>
 </template>
 
